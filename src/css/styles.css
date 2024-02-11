@@ -1,0 +1,34 @@
+@import url('./reset.css');
+@import url('./global.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./our-section.css');
+@import url('./price.css');
+@import url('./promo.css');
+@import url('./contact-section.css');
+@import url('./footer.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #d8b192;
+  --main-text-color: #767676;
+  --main-white-text-color: #ffffff;
+  --main-background-color: #fcf8ef;
+
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
