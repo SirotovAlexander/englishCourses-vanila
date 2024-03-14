@@ -1,3 +1,5 @@
+@import url('./reset.css');
+@import url('./header.css');
 html {
   scroll-behavior: smooth;
 }
@@ -19,10 +21,13 @@ html {
 } */
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-@media (min-width: 768px) and (max-width: 1260px) {
+@media (min-width: 768px) {
   .container {
     padding-left: 100px;
     padding-right: 100px;

@@ -1,0 +1,88 @@
+header {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  max-width: 310px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__lText {
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1450px) {
+  .header__lText {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1260px) {
+  .navigation {
+    display: none;
+  }
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 1450px) {
+  .nav__list {
+    gap: 10px;
+  }
+}
+.nav__link {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.header__button {
+  text-align: center;
+  width: 207px;
+  height: 52px;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  background: rgb(255, 63, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 63, 58, 1) 35%,
+    rgba(247, 94, 5, 1) 100%
+  );
+  border: 1px solid rgb(255, 63, 58);
+  border-radius: 4px;
+}
+.header__button:hover {
+  background: transparent;
+  color: rgb(255, 63, 58);
+}
+@media (max-width: 1260px) {
+  .header__button {
+    display: none;
+  }
+}
+@media (min-width: 1261px) {
+  .OpenBurger {
+    display: none;
+  }
+}
