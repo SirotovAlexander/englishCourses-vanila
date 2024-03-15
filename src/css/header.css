@@ -31,6 +31,19 @@ header {
     font-size: 25px;
   }
 }
+@media (max-width: 480px) {
+  .header__lText {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__lSVG {
+    width: 10px !important;
+    height: 20px !important;
+  }
+}
+
 @media (max-width: 1260px) {
   .navigation {
     display: none;
