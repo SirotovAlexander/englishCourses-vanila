@@ -54,6 +54,9 @@ header {
   font-style: normal;
   font-weight: 700;
 }
+.nav__link:hover {
+  color: rgb(255, 63, 58);
+}
 .header__button {
   text-align: center;
   width: 207px;
