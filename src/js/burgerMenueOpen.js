@@ -1,9 +1,12 @@
-const buttonOpen = document.querySelector('.burger-Button');
-const burgerMenue = document.querySelector('#menu-open');
+const buttonOpen = document.querySelector('#menu-open');
+const burgerMenue = document.querySelector('.burger-menu');
 
-// buttonOpen.addEventListener('click', openModal);
+buttonOpen.addEventListener('click', openModal);
 
-// function openModal(e) {
-//   console.dir(burgerMenue.checked);
-
-// }
+function openModal(e) {
+  if (e.target.checked) {
+    burgerMenue.classList.add('js-burgerMenue-open');
+  } else {
+    burgerMenue.classList.remove('js-burgerMenue-open');
+  }
+}
