@@ -1,3 +1,9 @@
+@media (min-width: 1261px) {
+  .burger-Button {
+    display: none;
+  }
+}
+
 .menu-item,
 .menu-open-button {
   background: #eeeeee;
