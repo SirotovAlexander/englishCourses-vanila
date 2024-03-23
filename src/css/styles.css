@@ -3,6 +3,7 @@
 @import url('./burgerButton.css');
 @import url('./burgerMenue.css');
 @import url('./hero.css');
+@import url('./aboutUs.css');
 html {
   scroll-behavior: smooth;
 }
