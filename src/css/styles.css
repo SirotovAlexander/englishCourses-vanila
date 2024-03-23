@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./burgerButton.css');
 @import url('./burgerMenue.css');
+@import url('./hero.css');
 html {
   scroll-behavior: smooth;
 }
@@ -42,4 +43,10 @@ body {
     max-width: 1300px;
     width: 100%;
   }
+}
+.bg-fix__wrapper {
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
