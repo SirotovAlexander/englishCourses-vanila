@@ -1,0 +1,27 @@
+.eventOrg__title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+.eventOrg__wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.eventOrg__description {
+  max-width: 500px;
+}
+.eventOrg__textFirst {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+.eventOrg__textSecond {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 10px;
+  font-weight: 400;
+}

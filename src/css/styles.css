@@ -5,6 +5,7 @@
 @import url('./hero.css');
 @import url('./aboutUs.css');
 @import url('./ourSpeakers.css');
+@import url('./eventOrganisation.css');
 
 html {
   scroll-behavior: smooth;
