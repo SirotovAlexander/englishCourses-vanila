@@ -1,5 +1,6 @@
 .articles {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .articles__container {
   display: flex;
