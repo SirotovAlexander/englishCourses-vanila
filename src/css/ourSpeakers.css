@@ -16,7 +16,9 @@
   justify-content: center;
   gap: 10px;
 }
+
 .speaker__photo {
+  width: 100%;
   max-width: 214px;
   max-height: 214px;
 }
