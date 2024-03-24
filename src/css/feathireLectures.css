@@ -1,3 +1,82 @@
 .lectures {
   background-color: #fedcd3;
+  padding-top: 50px;
+}
+.lectures__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 20px;
+}
+.lectures__item {
+  padding: 2px 5px 2px 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.lectures__dateNumber {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  color: rgb(255, 63, 58);
+}
+.lectures__day {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lectures__time {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  color: gray;
+}
+.lectures__secription {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lectures__orgSubject {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  color: gray;
+}
+.lectures__place {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  color: gray;
+}
+.lectures__button {
+  text-align: center;
+  width: 207px;
+  height: 52px;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  background: rgb(255, 63, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 63, 58, 1) 35%,
+    rgba(247, 94, 5, 1) 100%
+  );
+  border: 1px solid rgb(255, 63, 58);
+  border-radius: 4px;
+}
+.lectures__button:hover {
+  background: transparent;
+  color: rgb(255, 63, 58);
 }
